@@ -28,3 +28,10 @@ img {
   height: auto;
   vertical-align: bottom;
 }
+
+/* Page Grid */
+.pageGrid {
+  display: grid;
+  grid-template-columns: 72px auto 72px;
+  grid-template-rows: 72px auto auto;
+}
