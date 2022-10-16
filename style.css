@@ -112,3 +112,12 @@ img {
   transform: rotate(180deg);
   z-index: 10;
 }
+
+/* Footer */
+.footer {
+  grid-column: 1 / -1;
+  grid-row: 3;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 81px 0 86px;
+}
