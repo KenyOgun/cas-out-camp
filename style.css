@@ -31,14 +31,14 @@ img {
 
 /* Base: screen reader only */
 .sr-only {
- border: 0;
- clip: rect(0 0 0 0);
- height: 1px;
- margin: -1px;
- overflow: hidden;
- padding: 0;
- position: absolute;
- width: 1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
 /* Page Grid */
@@ -50,10 +50,37 @@ img {
 
 /* Navigation button */
 .nav-button {
-	grid-column: 3;
-	grid-row: 1;
-	padding: 0;
-	outline: none;
-	border: none;
-	background-color: #98a718;
-	cursor: pointer;
+  grid-column: 3;
+  grid-row: 1;
+  padding: 0;
+  outline: none;
+  border: none;
+  background-color: #98a718;
+  cursor: pointer;
+  z-index: 200;
+}
+
+/* Navigation button's white line */
+.nav-button {
+  display: grid;
+  place-content: center;
+}
+
+.nav-button::before,
+.nav-button::after {
+  content: "";
+  display: block;
+  margin: auto;
+  width: 32px;
+  height: 4px;
+  background-color: #ffffff;
+  transition: transform 0.5s;
+}
+
+.nav-button::before {
+  transform: translateY(-5px);
+}
+
+.nav-button::after {
+  transform: translateY(5px);
+}
