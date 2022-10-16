@@ -97,3 +97,18 @@ img {
   gap: 30px;
   z-index: 10;
 }
+
+/* Vertical text */
+.decor {
+  grid-column: 1;
+  grid-row: 2;
+  justify-self: start;
+  align-self: start;
+  margin-top: 257px;
+  margin-left: 10px;
+  color: #aaaaaa;
+  font-size: 20px;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  z-index: 10;
+}
