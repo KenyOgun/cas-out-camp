@@ -35,3 +35,13 @@ img {
   grid-template-columns: 72px auto 72px;
   grid-template-rows: 72px auto auto;
 }
+
+/* Navigation button */
+.nav-button {
+	grid-column: 3;
+	grid-row: 1;
+	padding: 0;
+	outline: none;
+	border: none;
+	background-color: #98a718;
+	cursor: pointer;
