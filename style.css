@@ -98,6 +98,13 @@ img {
   z-index: 10;
 }
 
+@media (min-width: 768px) {
+  .sns {
+    justify-self: center;
+    margin-right: 0;
+  }
+}
+
 /* Vertical text */
 .decor {
   grid-column: 1;
