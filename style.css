@@ -216,3 +216,9 @@ img {
     margin-top: 0;
   }
 }
+
+/* Main content */
+main {
+  grid-column: 1 / -1;
+  grid-row: 2;
+}
