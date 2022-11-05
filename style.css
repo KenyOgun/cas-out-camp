@@ -391,3 +391,17 @@ main {
     font-size: 75px;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hero h1 {
+    font-size: 160px;
+  }
+  .hero p {
+    margin-top: 185.5px;
+    font-size: 30.5px;
+  }
+  .hero img {
+    width: 395px;
+    height: 572.5px;
+  }
+}
