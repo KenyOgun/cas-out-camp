@@ -122,6 +122,10 @@ img {
   background: rgba(0, 0, 0, 0.8);
   color: #ffffff;
   z-index: 100;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  gap: 50px;
 }
 
 body {
