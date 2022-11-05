@@ -67,6 +67,12 @@ img {
         1fr
       );
   }
+  .article.partsGrid {
+    grid-template-columns: minmax(72px, 1fr) minmax(auto, 860px) minmax(
+        72px,
+        1fr
+      );
+  }
 }
 
 /* Navigation button */
@@ -266,4 +272,10 @@ main {
 .article p {
   font-size: 17px;
   line-height: 1.65;
+}
+
+@media (min-width: 768px) {
+  .article {
+    padding: 116px 0;
+  }
 }
