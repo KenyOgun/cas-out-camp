@@ -230,11 +230,23 @@ main {
   font-size: 37px;
   font-weight: bold;
 }
+
 .headimg figure {
   grid-column: 1 / -1;
 }
+
 .headimg img {
   width: 100%;
   height: 498px;
   object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .headimg figure {
+    grid-column: 2;
+  }
+
+  .headimg img {
+    object-position: center bottom;
+  }
 }
