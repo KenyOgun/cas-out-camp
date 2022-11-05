@@ -369,3 +369,19 @@ main {
   height: 506px;
   object-fit: cover;
 }
+
+@media (min-width: 768px) {
+  .hero h1 {
+    margin-top: 33px;
+    font-size: 229px;
+  }
+  .hero p {
+    margin-top: 251px;
+    font-size: 44px;
+  }
+  .hero img {
+    margin: 84px 0 183px;
+    width: 488px;
+    height: 639px;
+  }
+}
