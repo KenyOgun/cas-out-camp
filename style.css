@@ -416,3 +416,37 @@ main {
   color: #ffffff;
   background-color: #000000;
 }
+
+.msg img {
+  width: 100%;
+  height: 288px;
+  object-fit: cover;
+}
+
+.msgBlack img {
+  object-position: left center;
+}
+
+.msg h2 {
+  margin-bottom: 5px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.msg .text-subtitle {
+  margin-bottom: 40px;
+  color: #aaaaaa;
+  font-size: 20px;
+}
+
+.msg .text-body {
+  margin-bottom: 70px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.msg .text-link {
+  color: #98a718;
+  font-size: 18px;
+  font-weight: bold;
+}
