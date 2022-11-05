@@ -120,6 +120,13 @@ img {
   z-index: 10;
 }
 
+@media (min-width: 768px) {
+  .decor {
+    justify-self: center;
+    margin-left: 0;
+  }
+}
+
 /* Footer */
 .footer {
   grid-column: 1 / -1;
