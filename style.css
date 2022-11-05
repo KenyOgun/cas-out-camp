@@ -62,7 +62,10 @@ img {
 
 @media (min-width: 768px) {
   .partsGrid {
-    grid-template-columns: 1fr 1074px 1fr;
+    grid-template-columns: minmax(72px, 1fr) minmax(auto, 1074px) minmax(
+        72px,
+        1fr
+      );
   }
 }
 
