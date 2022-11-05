@@ -250,3 +250,20 @@ main {
     object-position: center bottom;
   }
 }
+
+/* Article */
+.article {
+  padding: 65px 0 105px;
+  row-gap: 28px;
+}
+
+.article h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 14px;
+}
+
+.article p {
+  font-size: 17px;
+  line-height: 1.65;
+}
