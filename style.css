@@ -180,4 +180,11 @@ img {
 
 .footer .chat {
   justify-self: end;
+  margin-top: -100px;
+}
+
+@media (min-width: 768px) {
+  .footer .chat {
+    margin-top: 0;
+  }
 }
