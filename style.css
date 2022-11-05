@@ -178,9 +178,28 @@ img {
   grid-row: 1;
 }
 
+.footer .site {
+  margin-bottom: 33px;
+  font-size: 37px;
+  font-weight: bold;
+}
+
+.footer .address {
+  font-size: 14px;
+  line-height: 1.3;
+}
+
 .footer .chat {
   justify-self: end;
   margin-top: -100px;
+  color: #98a718;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer .chat img {
+  padding-bottom: 7px;
 }
 
 @media (min-width: 768px) {
