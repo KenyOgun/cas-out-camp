@@ -509,4 +509,10 @@ main {
   .msg img {
     height: 100%;
   }
+
+  .msgWhite::after {
+    margin-right: -110px;
+    height: 256px;
+    margin-bottom: -151px;
+  }
 }
