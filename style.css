@@ -173,3 +173,11 @@ img {
   color: #ffffff;
   padding: 81px 0 86px;
 }
+
+.footer > * {
+  grid-row: 1;
+}
+
+.footer .chat {
+  justify-self: end;
+}
