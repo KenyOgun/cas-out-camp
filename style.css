@@ -300,6 +300,7 @@ main {
     "B C"
     "B D";
   gap: 10px;
+  margin: 14px 0;
 }
 
 .gallery .photoA {
@@ -329,5 +330,6 @@ main {
       "B A A"
       "B C D";
     gap: 15px;
+    margin: 16px 0;
   }
 }
