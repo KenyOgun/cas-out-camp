@@ -112,6 +112,14 @@ img {
   transform: translateY(5px);
 }
 
+.open .nav-button::before {
+  transform: translateY(2px) rotate(45deg);
+}
+
+.open .nav-button::after {
+  transform: translateY(-2px) rotate(-45deg);
+}
+
 /* Navigation menu */
 .nav ul {
   position: absolute;
