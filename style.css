@@ -48,6 +48,12 @@ img {
   grid-template-rows: 72px auto auto;
 }
 
+/* Parts Grid */
+.partsGrid {
+  display: grid;
+  grid-template-columns: 20px auto 20px;
+}
+
 /* Navigation button */
 .nav-button {
   grid-column: 3;
