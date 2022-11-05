@@ -148,9 +148,14 @@ img {
   overflow: hidden;
 }
 
-body {
-  height: 100%;
-  overflow: hidden;
+@media (pointer: fine) and (hover: hover) {
+  html {
+    overflow-y: scroll;
+  }
+
+  .open body {
+    height: 100vh;
+  }
 }
 
 /* SNS menu */
