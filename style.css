@@ -333,3 +333,24 @@ main {
     margin: 16px 0;
   }
 }
+
+/* Hero */
+.hero > * {
+  grid-column: 1 / -1;
+  justify-self: center;
+}
+
+.hero h1 {
+  font-size: 91px;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 17px;
+}
+
+.hero img {
+  width: 302px;
+  height: 506px;
+  object-fit: cover;
+}
