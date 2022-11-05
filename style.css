@@ -484,6 +484,10 @@ main {
 }
 
 @media (min-width: 768px) {
+  .msg {
+    padding: 150px 0;
+  }
+
   .msg figure {
     grid-row: 1;
     width: 44%;
@@ -491,9 +495,18 @@ main {
   .msg .text {
     grid-row: 1;
     width: 44%;
+    margin: 92px 0 46px;
   }
   .msgBlack figure,
   .msgWhite .text {
     justify-self: end;
+  }
+
+  .msg h2 {
+    font-size: 38px;
+  }
+
+  .msg img {
+    height: 100%;
   }
 }
