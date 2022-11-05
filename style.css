@@ -277,5 +277,15 @@ main {
 @media (min-width: 768px) {
   .article {
     padding: 116px 0;
+    row-gap: 36px;
+  }
+
+  .article h1 {
+    font-size: 48px;
+    margin-bottom: 4px;
+  }
+  .article p {
+    font-size: 21px;
+    line-height: 1.7;
   }
 }
