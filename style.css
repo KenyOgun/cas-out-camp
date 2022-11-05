@@ -405,3 +405,14 @@ main {
     height: 572.5px;
   }
 }
+
+/* Message */
+.msg {
+  padding: 64px 0;
+  row-gap: 56px;
+}
+
+.msgBlack {
+  color: #ffffff;
+  background-color: #000000;
+}
