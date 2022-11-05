@@ -67,6 +67,7 @@ img {
         1fr
       );
   }
+
   .article.partsGrid {
     grid-template-columns: minmax(72px, 1fr) minmax(auto, 860px) minmax(
         72px,
@@ -330,6 +331,7 @@ main {
     font-size: 48px;
     margin-bottom: 4px;
   }
+
   .article p {
     font-size: 21px;
     line-height: 1.7;
@@ -387,6 +389,7 @@ main {
 
 .hero > * {
   grid-column: 1 / -1;
+  grid-row: 1;
   justify-self: center;
 }
 
@@ -421,10 +424,12 @@ main {
     margin-top: 33px;
     font-size: 229px;
   }
+
   .hero p {
     margin-top: 251px;
     font-size: 44px;
   }
+
   .hero img {
     margin: 84px 0 183px;
     width: 488px;
@@ -442,10 +447,12 @@ main {
   .hero h1 {
     font-size: 160px;
   }
+
   .hero p {
     margin-top: 185.5px;
     font-size: 30.5px;
   }
+
   .hero img {
     width: 395px;
     height: 572.5px;
@@ -538,11 +545,13 @@ main {
     grid-row: 1;
     width: 44%;
   }
+
   .msg .text {
     grid-row: 1;
     width: 44%;
     margin: 92px 0 46px;
   }
+
   .msgBlack figure,
   .msgWhite .text {
     justify-self: end;
