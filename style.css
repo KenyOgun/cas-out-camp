@@ -450,3 +450,21 @@ main {
   font-size: 18px;
   font-weight: bold;
 }
+
+.msg figure {
+  grid-row: 1;
+}
+
+.msg::before {
+  grid-row: 1;
+  z-index: 2;
+  content: "";
+  display: block;
+  width: 26px;
+  height: 27px;
+  background-color: #98a718;
+}
+
+.msgWhite::before {
+  justify-self: end;
+}
