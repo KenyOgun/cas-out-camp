@@ -335,9 +335,20 @@ main {
 }
 
 /* Hero */
+.hero {
+  background-color: #ffffff;
+}
+
 .hero > * {
   grid-column: 1 / -1;
   justify-self: center;
+}
+
+.hero h1,
+.hero p {
+  color: #ffffff;
+  mix-blend-mode: difference;
+  z-index: 2;
 }
 
 .hero h1 {
