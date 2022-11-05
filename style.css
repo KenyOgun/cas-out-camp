@@ -54,6 +54,12 @@ img {
   grid-template-columns: 20px auto 20px;
 }
 
+.partsGrid > *,
+.partsGrid::before,
+.partsGrid::after {
+  grid-column: 2;
+}
+
 /* Navigation button */
 .nav-button {
   grid-column: 3;
